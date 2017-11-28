@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  margin-left: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+.images li {
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+}
+.informacion p {
+  display: none;
+}
+.informacion p.active {
+  display: block;
+  font-style: italic;
+  border: 5px solid blue;
+  border-radius: 5px;
+  background-color: lightblue;
+  width: 60%;
+  margin-left: 340px;
+}
